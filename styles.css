@@ -1,0 +1,135 @@
+.rightpic {
+    float: right;
+    margin: -130px 100px 100px 100px; 
+}
+.map{
+    float: right;
+    margin: -400px 100px 100px 100px; 
+}
+.last{
+    float: right;
+    margin-top: -75px;
+    margin-right: 200px;
+    margin-bottom: 120px;
+}
+h1{
+    font-family: 'Open Sans', sans-serif;  
+}
+h2{
+    font-family: 'Open Sans', sans-serif;  
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+}
+li{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+.first{
+    margin-left: 40px;    
+}
+.Explore{
+    vertical-align: text-top;
+}
+button {
+    background-color:#219F94;
+    border: none;
+    color: white;
+    padding: 11px 85px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+.top{
+    background-color: whitesmoke;
+    margin-top: 60px;
+}
+.absolute {
+    position: absolute;
+    right: 150px;
+    width: 200px;
+    height: 120px;
+  } 
+  /* .thumb img  {
+    padding: 30px;
+    margin-right: 10px; 
+    margin-bottom: 10px; 
+   } */
+
+hr{
+    border: none;
+    height: 1px;
+    background-color:#219F94; 
+}
+a{
+    color: white;
+}
+
+ol {
+    list-style: none; /* Remove default bullets */
+  }
+  
+  ol li::before {
+    content: "\25E6";
+    color: #219F94;
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em; 
+} 
+
+
+
+
+
+form { 
+    max-width:420px; 
+    margin-left: 40px;
+}
+
+.feedback-input {
+  color:black;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #219F94;;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  background:#219F94;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:rgb(16, 53, 50); }
+  
+
